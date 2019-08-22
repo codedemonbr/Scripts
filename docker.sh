@@ -12,3 +12,6 @@ echo "Instalando Docker"
 sudo apt install docker-ce
 echo "Vendo status do docker"
 sudo systemctl status docker
+echo "Adicionando usuário ao grupo docker"
+sudo usermod -aG docker ${USER}
+echo "Reinicie a máquina!!!"
