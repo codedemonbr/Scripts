@@ -81,3 +81,6 @@
 
 #echo 'VirtualBox'
 #./infraestrutura/virtualbox.sh
+
+#echo 'Postman'
+#./infraestrutura/postman.sh
